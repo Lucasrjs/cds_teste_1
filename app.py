@@ -1,9 +1,7 @@
-import pandas as pd
-import numpy as np
 import streamlit as st
+from src.extraction import load_data
 
-def load_data()
-    return pd.read.csv('data/processed/bikes_completed.csv')
+st.set_page_config(layout='wide')
 
 def main()
     df = load_data()
@@ -12,4 +10,3 @@ def main()
 
 if __name__ = '__main__':
     main()
-
