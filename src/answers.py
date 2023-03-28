@@ -1,2 +1,1 @@
-d = ('Lucas')
-print (d)
+import numpy as np
